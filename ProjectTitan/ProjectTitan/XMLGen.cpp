@@ -27,6 +27,13 @@ XMLNode::~XMLNode()
 
 XMLNode:: operator std::string()
 {
+    if (childs.size()==0)
+    {
+        std::string toReturn="<";
+        toReturn+=name;
+        toReturn+=" />";
+        return toReturn;
+    }
     std::string toReturn="<";
     toReturn+=name;
     toReturn+=">";

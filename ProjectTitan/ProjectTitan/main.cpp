@@ -16,6 +16,7 @@ int main(int argc, const char * argv[]) {
     pointer=new XMLNode("Map");
     node.addChild(pointer);
     pointer->addChild(new XMLTextNode("Status"));
+    pointer->addChild(new XMLNode("Status"));
     
 //    std::cout << "Hello, World!\n";
     XMLGener gener(std::cout);

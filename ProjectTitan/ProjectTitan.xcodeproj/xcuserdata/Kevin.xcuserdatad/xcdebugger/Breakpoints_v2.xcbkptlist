@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ProjectTitan/XMLGen.cpp"
-            timestampString = "445792897.697961"
+            timestampString = "445796659.910504"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "std::string()"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "XMLNode::addChild(XMLNodeBase* child)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

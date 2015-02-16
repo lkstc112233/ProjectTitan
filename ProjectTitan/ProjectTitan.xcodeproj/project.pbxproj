@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A7A78D71A9235E200FE919F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A78D61A9235E200FE919F /* main.cpp */; };
+		0A7A78E01A92381800FE919F /* XMLGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A78DE1A92381800FE919F /* XMLGen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0A7A78D31A9235E200FE919F /* ProjectTitan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectTitan; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7A78D61A9235E200FE919F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A7A78DE1A92381800FE919F /* XMLGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLGen.cpp; sourceTree = "<group>"; };
+		0A7A78DF1A92381800FE919F /* XMLGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLGen.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0A7A78D61A9235E200FE919F /* main.cpp */,
+				0A7A78DE1A92381800FE919F /* XMLGen.cpp */,
+				0A7A78DF1A92381800FE919F /* XMLGen.h */,
 			);
 			path = ProjectTitan;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7A78E01A92381800FE919F /* XMLGen.cpp in Sources */,
 				0A7A78D71A9235E200FE919F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

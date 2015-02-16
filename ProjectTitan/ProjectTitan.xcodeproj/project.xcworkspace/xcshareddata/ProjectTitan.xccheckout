@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD96FDF0-4C58-4A99-9F2D-C16485007A2D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProjectTitan</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C16F603415B5D1CB9F1B188C497FAB67ADDA3B6D</key>
+		<string>https://github.com/lkstc112233/ProjectTitan.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProjectTitan/ProjectTitan.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C16F603415B5D1CB9F1B188C497FAB67ADDA3B6D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lkstc112233/ProjectTitan.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C16F603415B5D1CB9F1B188C497FAB67ADDA3B6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C16F603415B5D1CB9F1B188C497FAB67ADDA3B6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProjectTitan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

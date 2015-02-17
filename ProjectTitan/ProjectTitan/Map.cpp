@@ -43,7 +43,7 @@ void Map::evolution()
         return;
     weightTotal=rand()%weightTotal;
     for (Object* o:objects)
-        if (weightTotal-=o->getEvolutionRate()<=0)
+        if ((weightTotal-=o->getEvolutionRate())<=0)
         {
             o->doAction();
             break;

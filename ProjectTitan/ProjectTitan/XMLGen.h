@@ -26,7 +26,7 @@ public:
     XMLNode(std::string NodeName);
     virtual ~XMLNode();
     virtual operator std::string();
-    void addChild(XMLNodeBase* child);
+    XMLNode* addChild(XMLNodeBase* child);
 private:
     std::string name;
     std::vector<XMLNodeBase*> childs;

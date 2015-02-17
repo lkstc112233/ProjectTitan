@@ -45,9 +45,10 @@ XMLNode:: operator std::string()
     return toReturn;
 }
 
-void XMLNode::addChild(XMLNodeBase* child)
+XMLNode* XMLNode::addChild(XMLNodeBase* child)
 {
     childs.push_back(child);
+    return this;
 }
 
 XMLTextNode::XMLTextNode(std::string texts)

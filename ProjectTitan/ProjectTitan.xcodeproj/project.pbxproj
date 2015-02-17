@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		0A7A78D71A9235E200FE919F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A78D61A9235E200FE919F /* main.cpp */; };
 		0A7A78E01A92381800FE919F /* XMLGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A78DE1A92381800FE919F /* XMLGen.cpp */; };
+		0AEA1D5F1A92EA98001D1D4F /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1D5D1A92EA98001D1D4F /* Map.cpp */; };
+		0AEA1D621A92EAFE001D1D4F /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1D601A92EAFE001D1D4F /* Character.cpp */; };
+		0AEA1D671A930CC0001D1D4F /* language.l in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1D661A930CC0001D1D4F /* language.l */; };
+		0AEA1D691A930CCE001D1D4F /* language.y in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1D681A930CCE001D1D4F /* language.y */; };
+		0AEA1D6C1A9317A1001D1D4F /* warper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1D6A1A9317A1001D1D4F /* warper.cpp */; };
+		0AEA1D6F1A931B73001D1D4F /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1D6D1A931B73001D1D4F /* AI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +34,16 @@
 		0A7A78D61A9235E200FE919F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A7A78DE1A92381800FE919F /* XMLGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLGen.cpp; sourceTree = "<group>"; };
 		0A7A78DF1A92381800FE919F /* XMLGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLGen.h; sourceTree = "<group>"; };
+		0AEA1D5D1A92EA98001D1D4F /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		0AEA1D5E1A92EA98001D1D4F /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		0AEA1D601A92EAFE001D1D4F /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		0AEA1D611A92EAFE001D1D4F /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		0AEA1D661A930CC0001D1D4F /* language.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = language.l; sourceTree = "<group>"; };
+		0AEA1D681A930CCE001D1D4F /* language.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = language.y; sourceTree = "<group>"; };
+		0AEA1D6A1A9317A1001D1D4F /* warper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = warper.cpp; sourceTree = "<group>"; };
+		0AEA1D6B1A9317A1001D1D4F /* warper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warper.h; sourceTree = "<group>"; };
+		0AEA1D6D1A931B73001D1D4F /* AI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AI.cpp; sourceTree = "<group>"; };
+		0AEA1D6E1A931B73001D1D4F /* AI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +77,18 @@
 			isa = PBXGroup;
 			children = (
 				0A7A78D61A9235E200FE919F /* main.cpp */,
+				0AEA1D5D1A92EA98001D1D4F /* Map.cpp */,
+				0AEA1D5E1A92EA98001D1D4F /* Map.h */,
 				0A7A78DE1A92381800FE919F /* XMLGen.cpp */,
 				0A7A78DF1A92381800FE919F /* XMLGen.h */,
+				0AEA1D601A92EAFE001D1D4F /* Character.cpp */,
+				0AEA1D611A92EAFE001D1D4F /* Character.h */,
+				0AEA1D661A930CC0001D1D4F /* language.l */,
+				0AEA1D681A930CCE001D1D4F /* language.y */,
+				0AEA1D6A1A9317A1001D1D4F /* warper.cpp */,
+				0AEA1D6B1A9317A1001D1D4F /* warper.h */,
+				0AEA1D6D1A931B73001D1D4F /* AI.cpp */,
+				0AEA1D6E1A931B73001D1D4F /* AI.h */,
 			);
 			path = ProjectTitan;
 			sourceTree = "<group>";
@@ -123,8 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEA1D671A930CC0001D1D4F /* language.l in Sources */,
+				0AEA1D6F1A931B73001D1D4F /* AI.cpp in Sources */,
+				0AEA1D691A930CCE001D1D4F /* language.y in Sources */,
+				0AEA1D5F1A92EA98001D1D4F /* Map.cpp in Sources */,
 				0A7A78E01A92381800FE919F /* XMLGen.cpp in Sources */,
 				0A7A78D71A9235E200FE919F /* main.cpp in Sources */,
+				0AEA1D6C1A9317A1001D1D4F /* warper.cpp in Sources */,
+				0AEA1D621A92EAFE001D1D4F /* Character.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +270,7 @@
 				0A7A78DC1A9235E200FE919F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
